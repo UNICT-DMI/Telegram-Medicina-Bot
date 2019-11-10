@@ -1,0 +1,15 @@
+# Meta data
+meta: {
+  name: dummy_form,
+  first_step: end_msg
+}
+
+# End message
+end_msg: {
+  type: message,
+  text: "Dummy form",
+  next_step: null,
+}
+
+
+
