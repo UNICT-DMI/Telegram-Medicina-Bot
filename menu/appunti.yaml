@@ -1,0 +1,9 @@
+cacheable: true
+type: inline 
+markup:
+- [
+  { text: "Canale A", callback_data: "mdmsg,canaleA" },
+  { text: "Canale B", callback_data: "mdmsg,canaleB" },
+  { text: "Canale C", callback_data: "mdmsg,canaleC" },
+  { text: "Canale D", callback_data: "mdmsg,canaleD" }
+]

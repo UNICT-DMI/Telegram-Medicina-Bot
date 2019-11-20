@@ -6,10 +6,9 @@ import modules.pytg.handlers.messages_handler as pytg_messages_handler
 import modules.pytg.handlers.callback_handler as pytg_callback_handler
 
 # Ideally, your bot should want to implements all those components
-import modules.YOUR_BOT.handlers.callback_handler as callback_handler
-import modules.YOUR_BOT.handlers.commands_handler as commands_handler
-import modules.YOUR_BOT.handlers.digest_handler as digest_handler
-import modules.YOUR_BOT.handlers.jobs_handler as jobs_handler
+import modules.medicina_bot.handlers.callback_handler as callback_handler
+import modules.medicina_bot.handlers.commands_handler as commands_handler
+import modules.medicina_bot.handlers.jobs_handler as jobs_handler
 
 from telegram.ext import Updater, MessageHandler, CommandHandler, Filters 
 
@@ -30,12 +29,10 @@ def main():
     updater = Updater(settings["token"], use_context=True)
     dispatcher = updater.dispatcher
 
-    # Your bot modules 
     commands_handler.load_command_handlers(dispatcher)
     callback_handler.load_callback_handlers(dispatcher)
 
     jobs_handler.schedule_jobs(updater.job_queue)
-    digest_handler.load_digesters()
 
     # PyTG boilerplate
     pytg_callback_handler.load_callback_handlers(dispatcher)

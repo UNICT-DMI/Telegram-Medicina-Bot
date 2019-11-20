@@ -1,0 +1,7 @@
+cacheable: true
+type: inline 
+markup:
+- [
+  { text: "Rapp. Dipartimento", callback_data: "mdmsg,rappresentanti_dipartimento" },
+  { text: "Rapp. CdL", callback_data: "mdmsg,rappresentanti_cdl" },
+]

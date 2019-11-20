@@ -1,0 +1,36 @@
+cacheable: true
+type: inline 
+markup:
+- [
+  { text: "📖 Esami",       url: "http://www.chirmed.unict.it/it/corsi/lm-41/calendario-esami"      },
+  { text: "🗓 Aulario",     url: "http://www.tb.unict.it/content/aulario-torre-biologica"           },
+  { text: "Lezioni",        url: "http://www.chirmed.unict.it/it/corsi/lm-41/orario-delle-lezioni"  },
+  { text: "Reg. Didattico", url: "http://www.chirmed.unict.it/it/corsi/lm-41/regolamento-didattico" }
+]
+- [
+  { text: "👥 Rappresentanti", callback_data: "menu,switch,rappresentanti" },
+  { text: "🤾‍♂️ CUS",            callback_data: "mdmsg,cus"                  }
+]
+- [
+  { text: "📚 Aule Studio",          callback_data: "mdmsg,aule_studio"    },
+  { text: "Appunti e Sbobinature",   callback_data: "menu,switch,appunti"  }
+]
+- [
+  { text: " ~ Segreteria orari e contatti ~ ", callback_data: "_div"}
+]
+- [
+  { text: "Seg. Didattica", callback_data: "mdmsg,sdidattica" },
+  { text: "Seg. Studenti",  callback_data: "mdmsg,sstudenti"  },
+  { text: "CEA",            callback_data: "mdmsg,cea"        }
+]
+- [
+  { text: " ~ ERSU orari e contatti ~ ", callback_data: "_div" }
+]
+- [
+  { text: "ERSU",         callback_data: "mdmsg,ersu"         },
+  { text: "Ufficio ERSU", callback_data: "mdmsg,ufficioersu"  },
+  { text: "URP",          callback_data: "mdmsg,urp"          }
+]
+- [
+  { text: "Contributors", callback_data: "mdmsg,contributors" }
+]

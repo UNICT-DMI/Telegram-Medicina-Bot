@@ -25,7 +25,21 @@ def create_reply_markup(menu_id):
             menu_row = []
 
             for button in row:
-                menu_row.append(InlineKeyboardButton(button["text"], callback_data = button["callback_data"]))
+                # Retrieving callback data
+                callback_data = None
+                if "callback_data" in button.keys():
+                    callback_data = button["callback_data"]
+
+                # Retrieving URL
+                url = None
+                if "url" in button.keys():
+                    url = button["url"]
+
+                menu_row.append(
+                    InlineKeyboardButton(button["text"],
+                    callback_data = callback_data,
+                    url = url)
+                )
 
             menu_layout.append(menu_row)
             
