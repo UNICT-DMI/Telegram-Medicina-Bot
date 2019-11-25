@@ -26,7 +26,7 @@ def text_message_handler(update, context):
 
     text = message.text
 
-    logging.info("Received text message update from {} ({}) in chat {}: {}".format(username, user_id, chat_id, text))
+    # logging.info("Received text message update from {} ({}) in chat {}: {}".format(username, user_id, chat_id, text))
 
     if not data_manager.has_user_data(chat_id):
         return

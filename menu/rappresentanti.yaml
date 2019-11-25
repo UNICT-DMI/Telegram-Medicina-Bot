@@ -3,5 +3,9 @@ type: inline
 markup:
 - [
   { text: "Rapp. Dipartimento", callback_data: "mdmsg,rappresentanti_dipartimento" },
-  { text: "Rapp. CdL", callback_data: "mdmsg,rappresentanti_cdl" },
+  { text: "Rapp. CdL", callback_data: "mdmsg,rappresentanti_cdl" }
+]
+- [
+  { text: "Scuola di Medicina", callback_data: "mdmsg,scuola_di_medicina" },
+  { text: "Senato", callback_data: "mdmsg,senato_med" }
 ]

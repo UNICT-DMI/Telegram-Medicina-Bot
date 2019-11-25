@@ -14,7 +14,7 @@ def menu_callback_handler(update, context):
     chat_id = query.message.chat_id
     message_id = query.message.message_id
 
-    logging.info("Handling menu callback data from {}: {}".format(chat_id, query_data))
+    # logging.info("Handling menu callback data from {}: {}".format(chat_id, query_data))
 
     if query_data[1] == "switch":
         menu_id = query_data[2]

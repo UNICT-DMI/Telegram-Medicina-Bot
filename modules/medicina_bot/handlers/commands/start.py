@@ -1,13 +1,11 @@
 import telegram
+from modules.medicina_bot.utils.keyboard_menu import printMenu
 
-import modules.pytg.managers.text_manager as text_manager
+import modules.medicina_bot.managers.markdown_manager as markdown_manager
 
 def start_cmd_handler(update, context):
     bot = context.bot
     chat_id = update.message.chat.id    
-    phrases = text_manager.load_phrases()
+    text = markdown_manager.load_markdown_document("start")
 
-    bot.sendMessage(
-        chat_id = chat_id,
-        text = phrases["start"]
-    )
+    printMenu(update, context, text)

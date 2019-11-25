@@ -1,3 +1,14 @@
-- Gabriele Carciotto
-- Rapp 2
-- Rapp 3
+Rappresentanti Dipartimento:  
+- Carciotto Gabriele  
+- Caruso Marco  
+- D’Amico Sabrina  
+- D’Arma Federica  
+- Failla Giorgio  
+- Giannino Emanuela  
+- Lamagna Benedetto  
+- Maccarone Vincenzo  
+- Petralia Giuseppe  
+- Pulvirenti Paola  
+- Putaggio Antonio  
+- Spirio Gerlando  
+- Torrisi Eleonora
