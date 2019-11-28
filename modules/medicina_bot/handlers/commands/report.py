@@ -13,7 +13,7 @@ def report_cmd_handler(update, context):
     else:
         if context.args:
             message = "⚠️Segnalazione⚠️ da @" + chat_username + "\n"  + " ".join(context.args)
-            context.bot.sendMessage(chat_id = 26349488, text = message)
+            context.bot.sendMessage(chat_id = -315510024, text = message)
             context.bot.sendMessage(chat_id = chat_id, text = "Resoconto segnalazione: \n" + " ".join(context.args) + "\n\n Grazie per la segnalazione, un rappresentante ti contatterà nel minor tempo possibile.")
         else:
             context.bot.sendMessage(chat_id = chat_id, text="⚠️ Errore ⚠️ \nInserisci la tua segnalazione dopo /report (Ad esempio /report Invasione ingegneri in corso.)")
