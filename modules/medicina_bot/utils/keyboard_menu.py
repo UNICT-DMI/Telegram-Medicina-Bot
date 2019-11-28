@@ -5,7 +5,12 @@ from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import CallbackContext
 
 def printMenu(update: Update, context: CallbackContext, message):
-    kb = [[KeyboardButton('❔ Help')]]
+    kb = [
+      [
+        KeyboardButton('👨‍🏫 Info Prof'),
+        KeyboardButton('❔ Help')
+      ]
+    ]
     kb_markup = ReplyKeyboardMarkup(kb, resize_keyboard=True)
 
     context.bot.send_message(

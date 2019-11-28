@@ -16,6 +16,9 @@ markup:
   { text: "Appunti e Sbobinature",   callback_data: "menu,switch,appunti"  }
 ]
 - [
+  { text: "👨‍🏫 Info Professori ", callback_data: "mdmsg,info_prof"}
+]
+- [
   { text: " ~ Segreteria orari e contatti ~ ", callback_data: "_div"}
 ]
 - [
