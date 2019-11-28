@@ -16,7 +16,7 @@ markup:
   { text: "Appunti e Sbobinature",   callback_data: "menu,switch,appunti"  }
 ]
 - [
-  { text: "👨‍🏫 Info Professori ",       callback_data: "mdmsg,info_prof"}
+  { text: "👨‍🏫 Info Professori ",       callback_data: "mdmsg,info_prof"},
   { text: "📬 Invia una segnalazione", callback_data: "mdmsg,report"}
 ]
 - [
