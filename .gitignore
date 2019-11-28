@@ -2,3 +2,6 @@ config/settings.yaml
 data/DB.db
 *.pyc
 */*.pyc
+__pycache__/
+*/__pycache__
+
