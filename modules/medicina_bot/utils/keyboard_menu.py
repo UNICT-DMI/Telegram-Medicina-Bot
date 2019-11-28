@@ -9,7 +9,8 @@ def printMenu(update: Update, context: CallbackContext, message):
       [
         KeyboardButton('👨‍🏫 Info Prof'),
         KeyboardButton('❔ Help')
-      ]
+      ],
+      [ KeyboardButton('📬 Invia una segnalazione') ]
     ]
     kb_markup = ReplyKeyboardMarkup(kb, resize_keyboard=True)
 

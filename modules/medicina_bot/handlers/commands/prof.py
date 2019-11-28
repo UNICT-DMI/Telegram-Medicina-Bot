@@ -5,6 +5,7 @@ from telegram.ext import CallbackContext
 import modules.pytg.managers.menu_manager as menu_manager
 import modules.pytg.managers.text_manager as text_manager
 import modules.pytg.managers.message_manager as message_manager
+import modules.medicina_bot.managers.markdown_manager as markdown_manager
 
 def prof_output(prof):
     output = "*Ruolo:* " + prof[1] + "\n"
@@ -57,3 +58,17 @@ def prof_cmd_handler(update: Update, context: CallbackContext):
         message_manager.send_message(update, context, message_text)
     else:
         context.bot.sendMessage(chat_id=update.message.chat_id, text=message_text, parse_mode='Markdown')
+
+def showprof_cmd_handler(update: Update, context: CallbackContext):
+    bot = context.bot
+
+    message = update.message
+    chat_id = message.chat.id
+
+    username = message.from_user.username
+    user_id = message.from_user.id
+
+    bot.send_message(
+        chat_id = chat_id,
+        text = markdown_manager.load_markdown_document("info_prof"),
+    )
