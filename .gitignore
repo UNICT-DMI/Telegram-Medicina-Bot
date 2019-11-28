@@ -1,3 +1,4 @@
 config/settings.yaml
 data/DB.db
-
+*.pyc
+*/*.pyc
