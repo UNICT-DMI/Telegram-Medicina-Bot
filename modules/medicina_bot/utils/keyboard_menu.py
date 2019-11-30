@@ -7,10 +7,10 @@ from telegram.ext import CallbackContext
 def printMenu(update: Update, context: CallbackContext, message):
     kb = [
       [
-        KeyboardButton('👨‍🏫 Info Prof'),
+        # KeyboardButton('👨‍🏫 Info Prof'),
         KeyboardButton('❔ Help')
       ],
-      [ KeyboardButton('📬 Invia una segnalazione') ]
+      # [ KeyboardButton('📬 Invia una segnalazione') ]
     ]
     kb_markup = ReplyKeyboardMarkup(kb, resize_keyboard=True)
 

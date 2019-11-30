@@ -13,5 +13,5 @@ def load_command_handlers(dispatcher):
     dispatcher.add_handler(CommandHandler("prof",    prof_cmd_handler, pass_args=True))
     dispatcher.add_handler(CommandHandler("report",  report_cmd_handler, pass_args=True))
     dispatcher.add_handler(MessageHandler(Filters.regex('❔ Help'), help_cmd_handler))
-    dispatcher.add_handler(MessageHandler(Filters.regex('👨‍🏫 Info Prof'), showprof_cmd_handler))
-    dispatcher.add_handler(MessageHandler(Filters.regex('📬 Invia una segnalazione'), showprof_cmd_handler))
+    # dispatcher.add_handler(MessageHandler(Filters.regex('👨‍🏫 Info Prof'), showprof_cmd_handler))
+    # dispatcher.add_handler(MessageHandler(Filters.regex('📬 Invia una segnalazione'), showprof_cmd_handler))
