@@ -2,10 +2,10 @@ cacheable: true
 type: inline 
 markup:
 - [
-  { text: "Rapp. Dipartimento", callback_data: "mdmsg,rappresentanti_dipartimento" },
-  { text: "Rapp. CdL", callback_data: "mdmsg,rappresentanti_cdl" }
+  { text: "CdL Med&Chir", callback_data: "mdmsg,rappresentanti_cdl" },
+  { text: "Dipartim.ChirMed", callback_data: "mdmsg,rappresentanti_dipartimento" }
 ]
 - [
-  { text: "Scuola di Medicina", callback_data: "mdmsg,scuola_di_medicina" },
-  { text: "Senato", callback_data: "mdmsg,senato_med" }
+  { text: "Scuola Di Medicina", callback_data: "mdmsg,scuola_di_medicina" },
+  { text: "Senato Accademico", callback_data: "mdmsg,senato_med" }
 ]
