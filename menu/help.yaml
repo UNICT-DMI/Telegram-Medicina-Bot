@@ -12,8 +12,8 @@ markup:
   { text: "🤾‍♂️ CUS",            callback_data: "mdmsg,cus"                  }
 ]
 - [
-  { text: "📚 Aule Studio",          callback_data: "mdmsg,aule_studio"    },
-  { text: "Appunti e Sbobinature",   callback_data: "menu,switch,appunti"  }
+  { text: "🏬 Aule Studio",             callback_data: "mdmsg,aule_studio"    },
+  { text: "📚 Appunti e Sbobinature",   callback_data: "menu,switch,appunti"  }
 ]
 - [
   { text: "👨‍🏫 Info Professori ",       callback_data: "mdmsg,info_prof"},
