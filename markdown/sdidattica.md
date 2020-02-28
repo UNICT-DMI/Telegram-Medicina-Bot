@@ -9,3 +9,8 @@ Segreteria Didattica Medicina e Chirurgia
 **Presidente CdL**  
 🕑 **Venerdì** dalle 11:00 alle 14:00  
 📞 095 4789303
+
+📧 presidenzamedicina@unict.it
+📧 presidenzamedicina.tirocinio@unict.it
+📧 c.rocco@unict.it
+📧 msanto@unict.it
