@@ -13,7 +13,7 @@ markup:
 ]
 - [
   { text: "🏬 Aule Studio",             callback_data: "mdmsg,aule_studio"    },
-  { text: "📚 Appunti e Sbobinature",   callback_data: "menu,switch,appunti"  }
+  { text: "📚 Appunti e Sbobinature",   callback_data: "mdmsg,ref_rappresentanti"  }
 ]
 - [
   { text: "👨‍🏫 Info Professori ",       callback_data: "mdmsg,info_prof"},
