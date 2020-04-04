@@ -1,1 +1,1 @@
-Riferirsi ai rappresentanti del proprio polo
+Riferirsi ai relativi Rappresentanti di Polo
